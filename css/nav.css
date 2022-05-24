@@ -1,0 +1,38 @@
+/* ---navBanner--- */
+.navBanner{
+    z-index: 50;
+
+    width: 100%;
+    height: 200px;
+    padding-top: 50px;
+}
+
+/* ---navBar--- */
+.navBar{
+    z-index: 50;
+
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 72px;
+}
+.navBar > ul > li{
+    float: left;
+    width: 33.33333333333333%;
+    cursor: pointer;
+}
+.depth2 > ul > li {
+    width: 50%;
+}
+.navBar > ul > li > a{
+    display: block;
+    height: 72px;
+    padding-top: 20px;
+}
+
+/* ---hover--- */
+.navBar > ul > li > a:hover{
+    color: #0097E1;
+    border-bottom: 3px solid #0097E1;    
+}

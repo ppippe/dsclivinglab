@@ -1,0 +1,159 @@
+#dimmed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 300;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* ---header--- */
+header{
+    z-index: 9999;
+
+    display: flex;
+    justify-content: center;
+
+    position: fixed;    
+    top: 0;
+    
+    width: 100%;
+    height: 130px;
+    padding-top: 54px;
+}
+header > .wrapWide{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* ---mainMenu--- */
+.mainMenu{
+    width: 63.41463414634146%;    
+    margin-top: 24px;
+}
+.mainMenu > ul {
+    float: left;
+    width: 20%;
+    cursor: pointer;
+}
+.mainMenu > ul > a{
+    display: block;
+    height: 32px;
+    margin-bottom: 25px;
+}
+.mainMenu > ul > li{
+    display: none;
+    height: 30px;
+}
+.mainMenu > ul > li > a{
+    display: block;
+}
+
+/* ----iconMenu--- */
+.iconMenu{
+    margin-top: 22px;
+}
+.iconMenu > *{
+    float: left;
+}
+.iconMenu > div:last-child{
+    position: relative;
+    margin-left: 30px;
+}
+
+/* ---hover--- */
+.mainMenu > ul > li:hover{
+    background-color: #E5E5E5;
+}
+.iconMenu > *:hover{
+    opacity: 0.5;
+}
+
+/* ---responsible--- */
+header.on{
+    height: 260px;
+}
+.mainMenu.on ul li{
+    display: block;
+}
+
+/* 태블릿, 스마트폰 가로모드 */
+@media (max-width: 1200px) {
+    header{
+        height: 90px;
+        padding-top: 16px;
+    }
+    header.on{
+        height: 90px;
+    }
+    header > .wrapWide{
+        display: block;
+    }
+    .wrapWide > a{
+        float: left;
+    }
+    .mainMenu{
+        background-color: white;
+        
+        display: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: start;
+
+        position: absolute;
+        top: 0; right: 0;
+        
+        width: 400px;
+        margin-top: 0px;
+        padding-top: 50px;
+        padding-bottom: 500px;
+    }
+    .mainMenu.on{
+        display: flex;
+    }
+    .mainMenu > ul {
+        width: 100%;
+    }
+    .mainMenu > ul > a{
+        height: 70px;
+        margin-bottom: 0;
+        padding-left: 30px;
+
+        line-height: 70px;
+        text-align: left;
+    }
+    .mainMenu > ul > li{
+        background-color: #F7F7F6;
+        height: 60px;
+        padding-left: 80px;
+    }
+    .mainMenu > ul > li:last-of-type{
+        margin-bottom: 5px;
+    }
+    .mainMenu > ul > li > a{
+        font-weight: 500;
+        line-height: 60px;
+        text-align: left;
+    }
+    .iconMenu{
+        float: right;
+    }
+    .iconMenu > .menuBtn{
+        position: relative;
+    }
+}
+
+/* 스마트폰 세로모드 */
+@media (max-width: 750px) {
+    header.on{
+        position: absolute;
+    }
+    .mainMenu{
+        width: 100%;
+    }
+    .searchBtn{
+        display: none;
+    }
+}

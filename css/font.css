@@ -1,0 +1,134 @@
+/* ---basic--- */
+*{
+    color: #333;
+    word-break: keep-all;
+}
+a{text-decoration: none;}
+body{
+    font-family: "Noto Sans KR", "Noto Sans", "나눔바른고딕", "NanumGothic", "나눔고딕", "Helvetica Neue", "Apple SD Gothic Neo";
+    letter-spacing: -0.05em;
+}
+
+/* ---fontSize--- */
+h1{font-size: 40px;}
+h2{font-size: 36px;} /* comment */
+h3{font-size: 32px;}
+h4{font-size: 26px;}
+p{font-size: 22px;}
+h5{font-size: 20px;} /* footer only */
+h6{font-size: 18px;}
+
+/* ---header--- */
+.mainMenu > ul > a{
+    color: #52595E;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+.mainMenu > ul > li > a{
+    color: #787878;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* ---footer--- */
+.footerBar > ul > a,
+.footerMenu > ul > li > a,
+.iconFooter > h6{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 50px;
+}
+footer > h5{
+    color: white;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* ---nav--- */
+.navBanner > *{text-align: center;}
+.navBanner > h1{
+    color: white;
+    font-weight: 700;
+}
+.navBanner > h4{
+    color: #FFB933;
+    font-weight: 500;
+}
+
+.navBar > ul > li > a{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* ---title--- */
+.title > h3 {
+    font-weight: 700;
+    text-align: center;
+}
+
+/* ---category--- */
+.mainCategory > ul > li > a{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+.subCategory > p{
+    font-weight: 500;
+}
+.subCategory > ul > li{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+/* ---card--- */
+.tagCard > h6{
+    font-weight: 300;
+    line-height: 40px;
+}
+.mainCard > h4{
+    font-weight: 700;
+}
+.mainCard > p{
+    font-weight: 400;
+}
+.subCard > h6:first-of-type,
+.subCard > h6:nth-of-type(3){
+    font-weight: 500;
+}
+.subCard > h6:nth-of-type(2),
+.subCard > h6:last-of-type{
+    font-weight: 400;
+}
+
+/* ---table--- */
+table th{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+table td{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.numberBox > div > p{
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* ---map--- */
+.map > div > ul > li > h4{
+    font-weight: 500;
+}
+
+/* ---paragraph--- */
+.paragraph{
+    font-size: 22px;
+    font-weight: 400;
+}

@@ -1,0 +1,26 @@
+/* ---section--- */
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100%;
+    padding-top: 130px;
+}
+section > .wrapNarrow{
+    padding: 100px 0;
+}
+section > .wrapNarrow > .wrapWide{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    
+    width: 100%;
+}
+
+/* ---responsible--- */
+@media (max-width: 1200px) {
+    section{
+        padding-top: 90px;
+    }
+}

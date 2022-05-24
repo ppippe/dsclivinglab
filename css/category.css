@@ -1,0 +1,49 @@
+/* ---mainCategory--- */
+.mainCategory{
+    width: 100%;
+    height: 72px;
+}
+.mainCategory > ul > li{
+    float: left;
+    width: 33.33333333333333%;
+    cursor: pointer;
+}
+.mainCategory > ul > li > a{
+    display: block;
+    height: 72px;
+    padding-top: 20px;
+    border: 1px solid #C4C4C4;
+}
+
+/* ---subCategory--- */
+.subCategory{
+    padding: 25px 5%;
+    border: 1px solid #C4C4C4;
+    border-radius: 0 0 30px 0;
+}
+.subCategory > *{
+    float: left;
+}
+.subCategory > p{
+    width: 15%;
+}
+.subCategory > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+
+    width: 85%;
+}
+.subCategory > ul > li{
+    width: 180px;
+}
+
+section > .wrapNarrow > nav:last-of-type{
+    margin-bottom: 70px;
+}
+
+/* ---hover--- */
+.mainCategory > ul > li > a:hover{
+    color: white;
+    background-color: #0097E1;
+}
