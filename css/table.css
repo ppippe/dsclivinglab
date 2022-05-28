@@ -47,6 +47,9 @@ table td{
 .tb4 th:nth-child(4){border-right: 0;}
 .tb4 td:nth-child(4){width: 16%; border-right: 0;}
 
+.tb4-co th:nth-child(4){border-right: 0;}
+.tb4-co td:nth-child(4){border-right: 0;}
+
 .tb5 th:nth-child(1){width: 9.4%;}
 .tb5 th:nth-child(2){width: 11.5%;}
 .tb5 th:nth-child(3){width: 16%;}
