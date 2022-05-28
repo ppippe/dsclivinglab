@@ -90,14 +90,99 @@
 .countName{
     width: 170%;
     margin-bottom: 0.6rem;
-    text-align: center;
 }
 
 .countNum{
     background-color: #749DF8;
     padding: 23% 65%;
     border-radius: 50px;
-    color: #fff;
     display: inline-block;
-    text-align: center;
+}
+
+
+/* mini */
+
+.map.mini{
+    /* background-color: #F2F2F1; */
+    padding: 46px 0 46px 0; 
+    /* border-radius: 25px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total.mini{
+    width: 32.7%;
+    margin-left: 8.6%;
+}
+
+.total.mini ul li > h6 > img{
+    width: 24px;
+    vertical-align: middle;
+}
+
+.total.mini ul li{
+    width: 100%;
+    background-color: #FAFAFA;
+    padding-top: 15px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.total.mini ul li h4{
+    margin-right: 10.5%;
+}
+
+.mapCount.mini{
+    /* width: 42.8%; */
+    width: 347px;
+    background: url(../images/map.svg) no-repeat center center /100%;
+    margin-right: 10.2%;
+}
+
+.mapCount.mini .countName {
+    font-weight: 500;
+    width: 120%;
+    margin: 0;
+}
+
+.mini .countNum{
+    background-color: #749DF8;
+    padding: 6% 40%;
+    font-weight: 500;
+}
+
+.mapCount.mini ul li{
+    position: absolute;
+}
+
+.mapCount.mini ul li:nth-child(1){
+    top: 12%;
+    left: 23%;
+}
+.mapCount ul li:nth-child(2){
+    top: 14%;
+    left: 66%;
+}
+.mapCount ul li:nth-child(3){
+    top: 37%;
+    left: 9%;
+}
+.mapCount ul li:nth-child(4){
+    top: 35.5%;
+    left: 49%;
+}
+.mapCount ul li:nth-child(5){
+    top: 42.6%;
+    left: 75%;
+}
+.mapCount ul li:nth-child(6){
+    bottom: 10%;
+    left: 28.6%;
+}
+.mapCount ul li:nth-child(7){
+    bottom: 13%;
+    left: 60%;
 }

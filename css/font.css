@@ -106,16 +106,16 @@ footer > h5{
 
 /* ---table--- */
 table th{
+    color: #333;
     font-size: 22px;
     font-weight: 700;
     line-height: 2rem;
 }
-
 table td{
+    color: #333;
     font-size: 22px;
     font-weight: 400;
 }
-
 .numberBox > div > p{
     color: white;
     line-height: 50px;
@@ -126,9 +126,50 @@ table td{
 .map > div > ul > li > h4{
     font-weight: 500;
 }
+.countNum{
+    color: white;
+    text-align: center;
+}
+.countName{
+    text-align: center;
+}
 
 /* ---paragraph--- */
 .paragraph{
     font-size: 22px;
     font-weight: 400;
+}
+
+/* ---proposal page--- */
+.propotext > h1{
+    color: #263866;
+    font-weight: 900;
+    line-height: 3.2rem;
+}
+.propotext > p{
+    color: #263866;
+    font-weight: 400;
+}
+.propoBox > span > p:nth-child(3){
+    color: #0097E1;
+}
+.propoBtn > div > p{
+    color: white;
+    font-weight: 500;
+    line-height: 72px;
+    text-align: center;
+}
+
+/* ---case page--- */
+.date > h4 {
+    color: #9E9E9E;
+}
+.bestMain > h2{
+    color: white;
+    font-weight: 700;
+}
+.cardBest > span > h6{
+    color: white;
+    font-weight: 700;    
+    line-height: 46px;
 }

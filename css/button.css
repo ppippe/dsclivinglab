@@ -1,0 +1,72 @@
+/* ---button--- */
+button{border: 0;}
+.iconBtn{
+    width: 40px; height: 40px;
+}
+.iconBtn > a{
+    display: block;
+    width: 100%; height: 100%;
+    text-indent: -9999px;
+}
+
+.searchBtn{background: url(../images/iconBtn_searchBtn.svg);}
+.menuBtn{background: url(../images/iconBtn_menuBtn.svg);}
+.menuBtn.on{background: url(../images/iconBtn_cancelBtn.svg);}
+.shortcutBtn{background: url(../images/iconBtn_openBtn.svg);}
+.shortcutBtn.on{background: url(../images/iconBtn_closeBtn.svg);}
+.dataBtn{
+    display: inline-block;    
+    background: url(../images/iconBtn_dataBtn.svg);
+    width: 23px; height: 23px;
+}
+.downloadBtn{
+    display: inline-block;    
+    background: url(../images/iconBtn_downloadBtn.svg);
+    width: 28px; height: 25px;
+}
+.plusBtn{
+    background: url(../images/iconBtn_plusBtn.svg);
+    width: 58px; height: 58px;
+}
+.bigPlusBtn{
+    background: url(../images/iconBtn_bigplus.svg)
+    no-repeat center center;
+}
+.smallPlusBtn{
+    background: url(../images/iconBtn_smallplus.svg);
+    width: 24px; height: 24px;
+}
+.arrowLeftBtn{
+    background: url(../images/iconBtn_arrowLeftBtn.svg);
+    width: 50px; height: 50px;
+}
+.arrowRightBtn{
+    background: url(../images/iconBtn_arrowRightBtn.svg);
+    width: 50px; height: 50px;
+}
+
+/* ---search--- */
+.searchTag > .iconBtn{
+    width: 48px; height: 48px;
+}
+.searchTag > .cowBtn{
+    width: 67px;
+}
+.tagCard > .iconBtn{
+    background-size: 40px 40px;
+    width: 40px; height: 40px;
+}
+.bioBtn{background: url(../images/iconBtn_bioBtn.svg);}
+.compostBtn{background: url(../images/iconBtn_compostBtn.svg);}
+.cowBtn{background: url(../images/iconBtn_cowBtn.svg);}
+.ecoBtn{background: url(../images/iconBtn_ecoBtn.svg);}
+.smellBtn{background: url(../images/iconBtn_smellBtn.svg);}
+
+/* ---shortcut--- */
+.shortcutBox > .iconBtn{
+    width: 100px; height: 100px;
+}
+.joinBtn{background: url(../images/iconBtn_joinBtn.svg);}
+.caseBtn{background: url(../images/iconBtn_caseBtn.svg);}
+.policyBtn{background: url(../images/iconBtn_policyBtn.svg);}
+.communityBtn{background: url(../images/iconBtn_communityBtn.svg);}
