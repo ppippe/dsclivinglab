@@ -40,3 +40,23 @@
     width: 100%;
     margin-bottom: 100px;
 }
+
+
+/* ---paragraph--- */
+@media (max-width: 750px) {
+    .paragraph{
+        margin-bottom: 15px;
+    }
+    .info1 img {
+        margin-bottom: 55px;
+    }
+    .info2 img {
+        margin-bottom: 30px;
+    }
+    .info3 img {
+        margin-bottom: 55px;
+    }
+    .info4 img {
+        margin-bottom: 30px;
+    }
+}

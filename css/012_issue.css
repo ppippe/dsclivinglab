@@ -63,13 +63,21 @@ section > .wrapNarrow:nth-child(5){
 .bestMain{
     width: 100%;
     height: 720px;
-    background: linear-gradient(to right, #0FB6CD, #749DF8 40%, #8674F8);
     padding: 78px 7% 0 7%;
 }
 
-.bestMain > div{
+.bestMain > .bestContainer{
     display: flex;
     flex-wrap: nowrap;
+}
+
+.bestMainBg{
+    background: linear-gradient(to right, #0FB6CD, #749DF8 40%, #8674F8);
+    z-index: -999;
+    height: 720px;
+    width: 100%;
+    top: 620px;
+    position: absolute;
 }
 
 .cardBest{
@@ -78,9 +86,17 @@ section > .wrapNarrow:nth-child(5){
     background-color: #fff;
     border-radius: 15px;
     text-align: center;
-    padding-top: 40px;
+    /* padding-top: 40px; */
+    padding: 4% 1% 3% 1%;
     margin: 36px 1.4% 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+/* .cardBest > div:nth-child(2){
+    margin-bottom: 30%;
+} */
 
 .cardBest > img{
     margin-bottom: 15px;
@@ -94,16 +110,22 @@ section > .wrapNarrow:nth-child(5){
     margin-bottom: 60px;
 }
 
+.cardBest > span{
+    display:block;
+}
+
 .cardBest > span:nth-last-child(1){
     margin-top: 30px;
-    display:block;
 }
 
 .cardBest > span:nth-last-child(2){
     width: 134px;
     height: 46px;
     background-color: #6A6A6A;
-    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    /* display:inline-block; */
 }
 
 div > .cardBest:nth-child(1) > span:nth-last-child(2){
@@ -122,24 +144,85 @@ div > .cardBest:nth-child(1) > span:nth-last-child(2){
 }
 
 .smallPlus{
-    margin: 71px auto 0 auto;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    width: 100%;
+    height: 64px;
+}
+
+.smallPlus > div{
     width: 180px;
     height: 64px;
+    margin: 0 auto;
     background-color: #184890;
     border-radius: 240px;
     display: flex;
     justify-content: center;
     cursor: pointer;
 }
-.smallPlus > img{
+
+.smallPlus > div > img{
     width: 24px;
     vertical-align: middle;
     margin-right: 10px;
     cursor: pointer;
 }
 
-.smallPlus > h4{
+.smallPlus > div > h4{
     color: #fff;
     line-height: 64px;
     cursor: pointer;
+}
+
+/* ---best issue--- */
+@media (max-width: 1450px) {
+    .cardBest > p {
+        font-size: 20px;
+    }
+    .cardBest > h4 {
+        font-size: 24px;
+    }
+    .cardBest > span > h6 {
+        font-size: 16px;   
+    }
+}
+
+@media (max-width: 1200px) {
+    .bestMain{
+        overflow: hidden;
+        padding-top: 50px;
+        padding-right: 18%;
+    }
+    .bestContainer{
+        width: 1200px;
+    }
+    .bestMainBg{
+        top: 581px;
+    }
+}
+
+@media (max-width: 750px) {
+    .bestMain{
+        height: 680px;
+    }
+    .bestMain > h2 {
+        font-size: 26px;
+    }
+    .bestMainBg{
+        top: 538px;
+        height: 680px;
+    }
+    .smallPlus > div{
+        width: 142px;
+        height: 51px;
+        border-radius: 240px;
+    }
+    .smallPlus > div > img{
+        width: 20px;
+        margin-right: 10px;
+    }
+    .smallPlus > div > h4{
+        font-size: 18px;
+        line-height: 51px;
+    }
 }

@@ -74,10 +74,6 @@ table td{
 .tb5-b td:nth-child(4) img{width: 21px; vertical-align: middle;}
 .tb5-b td:nth-child(4) img:nth-child(2){margin-left: 5%;}
 
-
-
-
-
 .tbNotice tr td:nth-child(2){
     text-align: left;
     padding-left: 1rem;
@@ -96,5 +92,78 @@ table td{
     width: 50px;
     height: 50px;
     background: #0097e1;
+}
+
+
+/* ---table--- */
+@media (max-width: 750px) {
+    table th {
+        padding: 0.2rem 0;
+        font-size: 18px;
+    }
+    table td {
+        font-size: 18px;
+        padding: 0.5rem 0.5rem;
+    }
+    .tb4-co td{
+        padding: 0.5rem 1rem;
+    }
+    .numberBox > div > p{
+        font-size: 14px;
+        line-height: 31px;
+        font-weight: 400;
+    }
+    .numberBox div{
+        width: 31px;
+        height: 31px;
+    }
+    .tb2 tr td ul {
+        padding: 0 0 0 30px;
+    }
+    .tb2 td:nth-last-child(1){padding: 1rem 0.5rem;}
+
+    .tb4 th:nth-child(1){width: 7.8%;}
+    .tb4 td:nth-child(4){width: 14%;}
+    .tbNotice tr td:nth-child(2){
+        padding-left: 0.5rem;
+    }
+    .tb5-b td:nth-child(4) {
+        width: 18%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px){
+    .tb5 tr{
+        font-size: 16px;
+    }
+    .tb5 td{
+        font-size: 16px;
+    }
+    .tb4 tr{
+        font-size: 16px;
+    }
+    .tb4 td{
+        font-size: 16px;
+    }
+    .tb4-co tr{
+        font-size: 16px;
+    }
+    .tb4-co td{
+        font-size: 16px;
+    }
+}
+
+
+/* 평가댓글 */
+@media (max-width: 1600px) {
+    .tb5-b span {
+        display: block;
+    }
+}
+@media (max-width: 1200px) {
+    .tb5-b span {
+        display: inline-block;
+    }
 }
 

@@ -1,5 +1,5 @@
 /* ---button--- */
-button{border: 0;}
+button{border: 0; padding: 0;}
 .iconBtn{
     width: 40px; height: 40px;
 }
@@ -68,7 +68,7 @@ button{border: 0;}
 .smellBtn{background: url(../images/iconBtn_smellBtn.svg);}
 
 /* ---shortcut--- */
-.shortcutBox > .iconBtn{
+.shortcutBox > a > .iconBtn{
     width: 100px; height: 100px;
 }
 .joinBtn{background: url(../images/iconBtn_joinBtn.svg);}
