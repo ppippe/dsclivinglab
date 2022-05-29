@@ -36,19 +36,18 @@
     padding-top: 4px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .total ul li > h6 > img{
     width: 38px;
-    height: 34px;
     vertical-align: middle;
 }
 
 /* ---지도--- */
 .mapCount{
     width: 34rem;
-    background: url(../images/map.svg) no-repeat center center / 32rem 30rem;
+    background: url(../images/map.svg) no-repeat center center / 100%;
     margin-right: 7.5%;
     position: relative;
     overflow: hidden;
@@ -109,12 +108,21 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    height: 470px;
 }
 
 .total.mini{
     width: 32.7%;
     margin-left: 8.6%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
+
+.total.mini ul{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .total.mini ul li > h6 > img{
     width: 24px;
@@ -124,11 +132,12 @@
 .total.mini ul li{
     width: 100%;
     background-color: #FAFAFA;
-    padding-top: 15px;
+    padding: 6% 0;
     border-radius: 30px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     display: flex;
     justify-content: center;
+    height: 69.5px;
 }
 
 .total.mini ul li h4{

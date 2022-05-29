@@ -95,12 +95,15 @@ footer > h5{
 .mainCard > p{
     font-weight: 400;
 }
-.subCard > h6:first-of-type,
-.subCard > h6:nth-of-type(3){
+.subCard > div > h6{
+    color: #787878;
+}
+.subCard > div > h6:first-of-type,
+.subCard > div > h6:nth-of-type(3){
     font-weight: 500;
 }
-.subCard > h6:nth-of-type(2),
-.subCard > h6:last-of-type{
+.subCard > div > h6:nth-of-type(2),
+.subCard > div > h6:last-of-type{
     font-weight: 400;
 }
 
@@ -118,6 +121,7 @@ table td{
 }
 .numberBox > div > p{
     color: white;
+    font-weight: 500;
     line-height: 50px;
     text-align: center;
 }
@@ -125,6 +129,9 @@ table td{
 /* ---map--- */
 .map > div > ul > li > h4{
     font-weight: 500;
+}
+.total > ul > li > h6{
+    font-weight: 400;
 }
 .countNum{
     color: white;
@@ -172,4 +179,9 @@ table td{
     color: white;
     font-weight: 700;    
     line-height: 46px;
+}
+
+
+.mapCount h4{
+    font-weight: 500;
 }

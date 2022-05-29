@@ -17,11 +17,13 @@ button{border: 0;}
 .dataBtn{
     display: inline-block;    
     background: url(../images/iconBtn_dataBtn.svg);
+    background-size: 100%;
     width: 23px; height: 23px;
 }
 .downloadBtn{
     display: inline-block;    
     background: url(../images/iconBtn_downloadBtn.svg);
+    background-size: 100%;
     width: 28px; height: 25px;
 }
 .plusBtn{
@@ -30,7 +32,7 @@ button{border: 0;}
 }
 .bigPlusBtn{
     background: url(../images/iconBtn_bigplus.svg)
-    no-repeat center center;
+    no-repeat center 18px;
 }
 .smallPlusBtn{
     background: url(../images/iconBtn_smallplus.svg);
@@ -53,8 +55,11 @@ button{border: 0;}
     width: 67px;
 }
 .tagCard > .iconBtn{
-    background-size: 40px 40px;
-    width: 40px; height: 40px;
+    background-size: 40px;
+}
+.tagCard > .cowBtn{
+    background-repeat: no-repeat;
+    background-position: 0 center;
 }
 .bioBtn{background: url(../images/iconBtn_bioBtn.svg);}
 .compostBtn{background: url(../images/iconBtn_compostBtn.svg);}
