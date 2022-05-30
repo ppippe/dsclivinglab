@@ -134,6 +134,9 @@ table td{
 }
 
 @media (max-width: 500px){
+    .tb5 td:nth-child(4) {
+        padding-left: 0;
+    }
     .tb5 tr{
         font-size: 14px;
     }
