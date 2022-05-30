@@ -334,28 +334,28 @@
 /* ---mapCount mini li position--- */
 @media (max-width: 1400px) {
     .mapCount.mini ul li:nth-child(1){top: 23%; left: 21%;}
-    .mapCount ul li:nth-child(2){top: 27%; left: 64%;}
-    .mapCount ul li:nth-child(3){top: 41%;}
-    .mapCount ul li:nth-child(4){top: 41%; left: 45%;}
-    .mapCount ul li:nth-child(5){top: 42.6%; left: 75%;}
-    .mapCount ul li:nth-child(6){bottom: 25%; left: 28.6%;}
-    .mapCount ul li:nth-child(7){bottom: 28%; left: 60%;}
+    .mapCount.mini ul li:nth-child(2){top: 27%; left: 64%;}
+    .mapCount.mini ul li:nth-child(3){top: 41%;}
+    .mapCount.mini ul li:nth-child(4){top: 41%; left: 45%;}
+    .mapCount.mini ul li:nth-child(5){top: 42.6%; left: 75%;}
+    .mapCount.mini ul li:nth-child(6){bottom: 25%; left: 28.6%;}
+    .mapCount.mini ul li:nth-child(7){bottom: 28%; left: 60%;}
 }
 @media (max-width: 1200px) {
     .mapCount.mini ul li:nth-child(1){top: 13%; left: 23%;}
-    .mapCount ul li:nth-child(2){top: 18%; left: 68%;}
-    .mapCount ul li:nth-child(4){top: 41%; left: 49%;}
-    .mapCount ul li:nth-child(5){top: 43%; left: 77%;}
-    .mapCount ul li:nth-child(6){bottom: 13%; left: 28.6%;}
-    .mapCount ul li:nth-child(7){bottom: 16%; left: 60%;}
+    .mapCount.mini ul li:nth-child(2){top: 18%; left: 68%;}
+    .mapCount.mini ul li:nth-child(4){top: 41%; left: 49%;}
+    .mapCount.mini ul li:nth-child(5){top: 43%; left: 77%;}
+    .mapCount.mini ul li:nth-child(6){bottom: 13%; left: 28.6%;}
+    .mapCount.mini ul li:nth-child(7){bottom: 16%; left: 60%;}
 }
 @media (max-width: 830px) {
     .mapCount.mini ul li:nth-child(1){top: 20%;}
-    .mapCount ul li:nth-child(2){top: 26%;}
-    .mapCount ul li:nth-child(4){top: 41%; left: 47%;}
-    .mapCount ul li:nth-child(5){top: 45%; left: 75%;}
-    .mapCount ul li:nth-child(6){bottom: 22%;}
-    .mapCount ul li:nth-child(7){bottom: 25%;}
+    .mapCount.mini ul li:nth-child(2){top: 26%;}
+    .mapCount.mini ul li:nth-child(4){top: 41%; left: 47%;}
+    .mapCount.mini ul li:nth-child(5){top: 45%; left: 75%;}
+    .mapCount.mini ul li:nth-child(6){bottom: 22%;}
+    .mapCount.mini ul li:nth-child(7){bottom: 25%;}
 }
 
 /* total none */
@@ -370,5 +370,20 @@
     .mapCount.mini{
         width: 17rem;
         margin-right: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .map{
+        display: flex;
+        justify-content: center;
+    }    
+    .total{
+        display: none;
+    }
+    .mapCount{
+        width: 17rem;
+        height: 300px;
+        /* margin-right: 0; */
     }
 }

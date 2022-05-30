@@ -103,10 +103,10 @@ table td{
     }
     table td {
         font-size: 18px;
-        padding: 0.5rem 0.5rem;
+        padding: 0.5rem 0;
     }
     .tb4-co td{
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 0;
     }
     .numberBox > div > p{
         font-size: 14px;
@@ -135,19 +135,19 @@ table td{
 
 @media (max-width: 500px){
     .tb5 tr{
-        font-size: 16px;
+        font-size: 14px;
     }
     .tb5 td{
         font-size: 16px;
     }
     .tb4 tr{
-        font-size: 16px;
+        font-size: 14px;
     }
     .tb4 td{
         font-size: 16px;
     }
     .tb4-co tr{
-        font-size: 16px;
+        font-size: 14px;
     }
     .tb4-co td{
         font-size: 16px;

@@ -1,11 +1,22 @@
 .propoBanner{
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
     background: url(../images/rectangle_small.png) no-repeat top center;
     background-size: 89.8% 228px;
     height: 228px;
     align-items: center;
     margin-bottom: 115px;
+}
+
+.propoBg{
+    display: none;
+    width: 100%;
+    height: 240px;
+    background-color: #F7F7F6;
+    z-index: -999;
+    position: absolute;
+    top: 580px;
 }
 
 .propotext{
@@ -15,19 +26,21 @@
 }
 
 .propoillust1{
-    margin-left: -7.3%;
+    /* margin-left: -7.3%; */
+    margin-left: -150px;
     padding-top: 22px;
 }
 
 .propoillust2{
-    padding-right: -7.3%;
+    /* padding-right: -7.3%; */
+    margin-right: -150px;
     padding-top: 150px;
 }
 
 .propoBox{
     width: 100%;
     border: 1px solid #c4c4c4;
-    padding: 30px 43px 30px 43px;
+    padding: 20px 43px 20px 43px;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 50px;
@@ -37,10 +50,12 @@
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
+    line-height: 70px;
 }
 
 .propoBox > span:nth-child(1){
-    margin-right: 130px;
+    /* margin-right: 130px; */
+    margin-right: 10%;
 }
 
 .propoBox > span > p:nth-child(2){

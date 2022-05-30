@@ -27,6 +27,10 @@ section > .wrapNarrow:nth-child(5){
     width: 100%;
 }
 
+.videoMain > div > h4{
+    color: #9E9E9E;
+}
+
 .video{
     width: 49%;
     line-height: 40px;
@@ -224,5 +228,75 @@ div > .cardBest:nth-child(1) > span:nth-last-child(2){
     .smallPlus > div > h4{
         font-size: 18px;
         line-height: 51px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .videoMain > div {
+        width: 90%;
+    }
+} 
+
+@media (max-width: 750px) {
+    .videoMain > div {
+        width: 95%;
+    }
+    .videoMain h1{
+        font-size: 26px;
+    }
+    .videoMain > div > h4{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .video {
+        width: 64%;
+        margin-left: auto;
+        margin-right:auto;
+        margin-bottom: 44px;
+    }
+    .video > h4{
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    .date > h4{
+        font-weight: 500;
+    }
+    .date > p {
+        font-size: 14px;
+        padding-top: 2px;
+    }
+    .videoMain > div > span > p{
+        padding-top: 10px;
+    }
+    .date > p > img {
+        width: 19px;
+    }
+}
+
+@media (max-width: 550px) {
+    .videoMain > div {
+        width: 96%;
+    }
+    .video {
+        width: 100%;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    .video > h4{
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    .date > h4{
+        font-weight: 500;
+    }
+    .date > p {
+        font-size: 14px;
+        padding-top: 2px;
+    }
+    .date > p > img {
+        width: 19px;
     }
 }
