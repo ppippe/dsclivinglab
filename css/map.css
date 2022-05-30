@@ -370,6 +370,7 @@
     .mapCount.mini{
         width: 17rem;
         margin-right: 0;
+        align-items: center;
     }
 }
 

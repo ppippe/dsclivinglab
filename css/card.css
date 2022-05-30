@@ -89,7 +89,7 @@
 }
 
 @media (max-width: 500px) {
-    .mainCategory > ul > li:nth-child(1) > a {
+    .mento > ul > li:nth-child(1) > a {
         font-size: 14px;
         padding-top: 13px;
     }
