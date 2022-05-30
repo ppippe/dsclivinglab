@@ -363,6 +363,7 @@
     .map.mini{
         display: flex;
         justify-content: center;
+        align-items: center;
     }    
     .total.mini{
         display: none;
@@ -370,7 +371,6 @@
     .mapCount.mini{
         width: 17rem;
         margin-right: 0;
-        align-items: center;
     }
 }
 
