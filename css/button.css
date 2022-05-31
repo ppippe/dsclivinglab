@@ -11,7 +11,7 @@ button{border: 0; padding: 0;}
 
 .searchBtn{background: url(../images/iconBtn_searchBtn.svg);}
 .menuBtn{background: url(../images/iconBtn_menuBtn.svg);}
-.menuBtn.on{background: url(../images/iconBtn_cancelBtn.svg);}
+@media (max-width: 1200px) {.menuBtn.mob{background: url(../images/iconBtn_cancelBtn.svg);}}
 .shortcutBtn{background: url(../images/iconBtn_openBtn.svg);}
 .shortcutBtn.on{background: url(../images/iconBtn_closeBtn.svg);}
 .dataBtn{

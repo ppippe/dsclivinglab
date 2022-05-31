@@ -71,22 +71,40 @@ header > .wrapWide{
     opacity: 0.5;
 }
 
-/* ---responsible--- */
-header.on{
-    height: 260px;
+/* ---resize--- */
+@media (min-width: 1201px) {
+    header.pc{
+        height: 260px;
+    }
+    .mainMenu.pc ul li{
+        display: block;
+    }
 }
-.mainMenu.on ul li{
-    display: block;
+@media (max-width: 1200px) {
+    header.mob{
+        height: 90px;
+    }
+    .mainMenu.mob{
+        display: flex;
+    }
+    .mainMenu.mob > ul > li{
+        display: block;
+    }
+}
+/* 스마트폰 세로모드 */
+@media (max-width: 750px) {
+    header.mob{
+        position: absolute;
+    }
 }
 
+
+/* ---responsible--- */
 /* 태블릿, 스마트폰 가로모드 */
 @media (max-width: 1200px) {
     header{
         height: 90px;
         padding-top: 16px;
-    }
-    header.on{
-        height: 90px;
     }
     header > .wrapWide{
         display: block;
@@ -109,9 +127,6 @@ header.on{
         margin-top: 0px;
         padding-top: 50px;
         padding-bottom: 500px;
-    }
-    .mainMenu.on{
-        display: flex;
     }
     .mainMenu > ul {
         width: 100%;
@@ -147,9 +162,6 @@ header.on{
 
 /* 스마트폰 세로모드 */
 @media (max-width: 750px) {
-    header.on{
-        position: absolute;
-    }
     .mainMenu{
         width: 100%;
     }
