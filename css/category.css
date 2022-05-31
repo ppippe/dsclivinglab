@@ -43,10 +43,6 @@ section > .wrapNarrow > nav:last-of-type{
 }
 
 /* ---hover--- */
-.worksh > ul > li:nth-child(1) > a:hover{
-    background-color: #E5E9EE;
-}
-
-.worksh > ul > li:nth-child(3) > a:hover{
-    background-color : #E5E9EE
+.mainCategory.on > ul > li > a:hover{
+    background-color : #E5E9EE;
 }
